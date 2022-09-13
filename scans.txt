@@ -1,0 +1,60 @@
+# =====
+# Original package shipment info
+# =====
+# William Young 649-601 N 17th St San Jose, CA 95112
+# Patricia Flores 99-1 W 100 N Midway, UT 84049
+# Carol Baker 1469-1401 Elk St Rock Springs, WY 82901
+# Margaret Harris 11108-11000 Co Rd 69 Hayden, CO 81639
+# James King NE 35th St, El Dorado, KS 67042
+# Donna Harris 1633 S Boulder Ave, Tulsa, OK 74119
+# James Cook 4074 Mall Ave, Fayetteville, AR 72703
+# Barbara Rogers 2868 May Blvd Suite 105, Southaven, MS 38672
+# Betty Taylor 1452 W Lexington Ave, Winchester, KY 40391
+# Robert Gonzales 415 W Walnut St, Johnson City, TN 37604
+# Kimberly Howard 110 Hawthorne Rd, Beech Mountain, NC 28604
+# Maria Collins 4330 Riner Rd, Riner, VA 24149
+# Sharon Morgan 489 W Patrick St, Frederick, MD 21701
+# Helen Murphy 100 Hersheypark Dr, Hershey, PA 17033
+# Susan Thompson 101 Park Ave, New York, NY 10178
+# Dorothy Anderson NY-30, Northville, NY 12134
+# Robert Jackson 63 Currier Rd Killington, VT 05751
+# =====
+# String fragments yielded by OCR (use these as program input)
+# =====
+[["YoungWilliamSanNJose,", "95112CA649-601St", "17th"],
+["84049UTN99-1", "100P", "atric", "iaM", "idw", "ay,Flo", "res", "W"],
+["Carol82901Baker", "ElkStS", "prings,1", "469-14", "01", "W", "Y", "Rock"],
+["81639Hayden,HarrisCOMargaretRdCo", "6911108-11000"],
+["James67042S", "t,KSKingNE", "35thDora", "do,El"],
+["741191633Tulsa,BoulderAve,", "HarrisOKDon", "n", "aS"],
+["72703MallF", "ayetteville,ARCo", "ok4074James", "Ave,"],
+["BarbaraSuite105,M", "ay3867", "2RogersBlvd2868Southa", "ven,MS"],
+["40391Ave,KYBettyWinches", "ter,TaylorLex", "ington145", "2W"],
+["37604TNWWalnut415JohnsonRobertSt,GonzalesCi", "ty", ","],
+["Rd,28604NC", "HowardHawthorneBeech", "1", "10Mountain,Kimber", "l", "y"],
+["MariaVA24149RinerRd,Collins4330Ri", "n", "e", "r,"],
+["Frederick,21701M", "D489MorganWSt,", "SharonPa", "t", "r", "ic", "k"],
+["Dr,MurphyPAHersheypar", "k17033H", "elenHer", "shey", ",", "1", "0", "0"],
+["101NewYork,NYSusanParkA", "ve,10178Thompson"],
+["AndersonNorthville,", "NYNY-30,12134D", "or", "o", "th", "y"],
+["RobertRd63Killington", ",05751VTJacksonCurrie", "r"]]
+# =====
+# Expected results from name parsing
+# =====
+# William Young
+# Patricia Flores
+# Carol Baker
+# Margaret Harris
+# James King
+# Donna Harris
+# James Cook
+# Barbara Rogers
+# Betty Taylor
+# Robert Gonzales
+# Kimberly Howard
+# Maria Collins
+# Sharon Morgan
+# Helen Murphy
+# Susan Thompson
+# Dorothy Anderson
+# Robert Jackson
